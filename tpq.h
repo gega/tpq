@@ -48,7 +48,7 @@
 
 struct tpq_tp_queue
 {
-  TPQ_BUF_TYPE buf[TPQ_BUFFER_SIZE];
+  uint8_t buf[TPQ_BUFFER_SIZE];
   TPQ_SIZE_TYPE size;
   uint8_t status;
 };
